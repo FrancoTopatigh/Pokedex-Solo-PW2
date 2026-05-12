@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ea7e5a-d593-480c-8e00-549448345cbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formulario_alta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modificar_formulario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pokemon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pokemonlogo2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -54,10 +55,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "ABM",
+    "git-widget-placeholder": "design",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/Pokedex-Solo-PW2/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +69,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Pokedex-Solo-PW2\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Pokedex-Solo-PW2" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778597116762</updated>
-      <workItem from="1778597117916" duration="653000" />
+      <workItem from="1778597117916" duration="3122000" />
     </task>
     <servers />
   </component>
