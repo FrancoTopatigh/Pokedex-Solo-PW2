@@ -22,7 +22,7 @@
             if (isset($_SESSION['nombre_usuario'])): ?>
                 <div class="d-flex align-items-center">
                     <span class="me-3">Usuario: <strong><?php echo $_SESSION['nombre_usuario']; ?></strong></span>
-                    <a href="procesar_logout.php" class="btn btn-outline-danger btn-sm">Salir</a>
+                    <a href="logout.php" class="btn btn-outline-danger btn-sm">Salir</a>
                 </div>
             <?php else: ?>
                 <form class="d-flex align-items-center gap-2" action="procesar_login.php" method="POST">
