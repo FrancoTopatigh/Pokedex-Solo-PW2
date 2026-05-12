@@ -9,3 +9,10 @@ CREATE TABLE IF NOT EXISTS pokemon (
     imagen VARCHAR(255) NOT NULL,
     descripcion TEXT
     );
+
+CREATE TABLLE IF NOT EXISTS usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_usuario VARCHAR(40) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    esAdmin BOOLEAN
+);

@@ -19,17 +19,16 @@
         <div class="ms-auto">
             <?php
             session_start();
-            $_SESSION['usuario'] = 'admin';
-            if (isset($_SESSION['usuario'])): ?>
+            if (isset($_SESSION['nombre_usuario'])): ?>
                 <div class="d-flex align-items-center">
-                    <span class="me-3">Usuario: <strong><?php echo $_SESSION['usuario']; ?></strong></span>
+                    <span class="me-3">Usuario: <strong><?php echo $_SESSION['nombre_usuario']; ?></strong></span>
                     <a href="procesar_logout.php" class="btn btn-outline-danger btn-sm">Salir</a>
                 </div>
             <?php else: ?>
                 <form class="d-flex align-items-center gap-2" action="procesar_login.php" method="POST">
                     <input type="text" name="usuario" class="form-control form-control-sm" placeholder="Usuario" required>
                     <input type="password" name="password" class="form-control form-control-sm" placeholder="Password" required>
-                    <button type="submit" class="btn btn-primary btn-sm">Ingresar</button>
+                    <button type="submit" class="btn btn-primary btn-sm" name="btn-ingresar">Ingresar</button>
                 </form>
             <?php endif; ?>
         </div>

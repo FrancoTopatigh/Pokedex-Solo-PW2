@@ -16,7 +16,7 @@ if (!empty($busqueda)) {
     $resultado = mysqli_query($conexion, $query);
 }
 
-$esAdmin = isset($_SESSION['usuario']);
+$esAdmin = isset($_SESSION['nombre_usuario']);
 ?>
 
     <main class="container mt-4">
