@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ea7e5a-d593-480c-8e00-549448345cbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/tipos/acero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/agua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/bicho.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/dragon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/electrico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/fantasma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/fuego.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/hada.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/hielo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/lucha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/planta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/psiquico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/roca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/tierra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/veneno.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tipos/volador.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detalle.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "login-sistema",
+    "git-widget-placeholder": "detalle-pokemon",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -109,7 +92,7 @@
       <updated>1778597116762</updated>
       <workItem from="1778597117916" duration="9073000" />
       <workItem from="1778624666435" duration="2947000" />
-      <workItem from="1778697070464" duration="4131000" />
+      <workItem from="1778697070464" duration="7067000" />
     </task>
     <servers />
   </component>

@@ -40,10 +40,16 @@ $esAdmin = isset($_SESSION['nombre_usuario']);
                             <img src="<?php echo $fila['imagen']; ?>" alt="Pokemon" style="width: 50px; height: 50px; object-fit: contain;">
                         </td>
                         <td>
-                            <img src="img/tipos/<?php echo $fila['tipo']; ?>.png">
+                            <a href="detalle.php?id=<?php echo $fila['id']; ?>">
+                                <img src="<?php echo $fila['imagen']; ?>" style="width: 50px;">
+                            </a>
                         </td>
                         <td><?php echo $fila['numero']; ?></td>
-                        <td><?php echo $fila['nombre']; ?></td>
+                        <td>
+                            <a href="detalle.php?id=<?php echo $fila['id']; ?>">
+                                <?php echo $fila['nombre']; ?>
+                            </a>
+                        </td>
 
                         <?php if ($esAdmin): ?>
                             <td>
