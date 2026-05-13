@@ -3,17 +3,17 @@ include_once 'conexion.php';
 include_once 'html/header.php';
 
 $busqueda = isset($_GET['busqueda']) ? $_GET['busqueda'] : '';
-$query = "SELECT * FROM pokemon";
+$sql = "SELECT * FROM pokemon";
 
-if (!empty($busqueda)) {
-    $query .= " WHERE nombre LIKE ? OR tipo LIKE ? OR numero = ?";
-    $stmt = mysqli_prepare($conexion, $query);
+if (!empty(trim($busqueda))) {
+    $sql .= " WHERE nombre LIKE ? OR tipo LIKE ? OR numero = ?";
+    $stmt = mysqli_prepare($conexion, $sql);
     $termino = "%$busqueda%";
     mysqli_stmt_bind_param($stmt, "sss", $termino, $termino, $busqueda);
     mysqli_stmt_execute($stmt);
     $resultado = mysqli_stmt_get_result($stmt);
 } else {
-    $resultado = mysqli_query($conexion, $query);
+    $resultado = mysqli_query($conexion, $sql);
 }
 
 $esAdmin = isset($_SESSION['nombre_usuario']);
@@ -40,7 +40,7 @@ $esAdmin = isset($_SESSION['nombre_usuario']);
                             <img src="<?php echo $fila['imagen']; ?>" alt="Pokemon" style="width: 50px; height: 50px; object-fit: contain;">
                         </td>
                         <td>
-                            <?php echo $fila['tipo']; ?>
+                            <img src="img/tipos/<?php echo $fila['tipo']; ?>.png">
                         </td>
                         <td><?php echo $fila['numero']; ?></td>
                         <td><?php echo $fila['nombre']; ?></td>
@@ -58,7 +58,7 @@ $esAdmin = isset($_SESSION['nombre_usuario']);
 
                 <?php if (mysqli_num_rows($resultado) == 0): ?>
                     <tr>
-                        <td colspan="<?php echo $esAdmin ? 5 : 4; ?>" class="text-center">No se encontraron resultados</td>
+                        <td colspan="<?php echo $esAdmin ? 5 : 4; ?>" class="text-center">Pokemon no encontrado.</td>
                     </tr>
                 <?php endif; ?>
                 </tbody>

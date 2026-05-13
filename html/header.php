@@ -39,7 +39,7 @@
     <div class="row mb-4">
         <div class="col-12">
             <form action="index.php" method="GET" class="d-flex gap-2">
-                <input class="form-control" type="search" name="busqueda" placeholder="Ingrese el nombre, tipo o número de pokémon" aria-label="Search">
+                <input class="form-control" value="<?php echo isset($_GET['busqueda']) ? $_GET['busqueda'] : ''; ?>" type="search" name="busqueda" placeholder="Ingrese el nombre, tipo o número de pokémon" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit" style="white-space: nowrap;">¿Quien es este pokemon?</button>
             </form>
         </div>
