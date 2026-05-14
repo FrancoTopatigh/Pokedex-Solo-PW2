@@ -41,7 +41,7 @@ $esAdmin = isset($_SESSION['nombre_usuario']);
                         </td>
                         <td>
                             <a href="detalle.php?id=<?php echo $fila['id']; ?>">
-                                <img src="<?php echo $fila['imagen']; ?>" style="width: 50px;">
+                                <img src="img/tipos/<?php echo $fila['tipo']; ?>.png"" style="width: 50px;">
                             </a>
                         </td>
                         <td><?php echo $fila['numero']; ?></td>

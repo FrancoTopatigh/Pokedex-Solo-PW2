@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ea7e5a-d593-480c-8e00-549448345cbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/detalle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bulbasur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/charmander.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pikachu.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tipos/fuego.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tipos/Fuego.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tipos/psiquico.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tipos/Psiquico.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +60,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/Pokedex-Solo-PW2/img/tipos",
+    "last_opened_file_path": "C:/xampp/htdocs/Pokedex-Solo-PW2/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,8 +72,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Pokedex-Solo-PW2\img\tipos" />
       <recent name="C:\xampp\htdocs\Pokedex-Solo-PW2\img" />
+      <recent name="C:\xampp\htdocs\Pokedex-Solo-PW2\img\tipos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Pokedex-Solo-PW2" />
@@ -92,26 +96,12 @@
       <updated>1778597116762</updated>
       <workItem from="1778597117916" duration="9073000" />
       <workItem from="1778624666435" duration="2947000" />
-      <workItem from="1778697070464" duration="7067000" />
+      <workItem from="1778697070464" duration="7337000" />
+      <workItem from="1778715553129" duration="1364000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
