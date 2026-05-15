@@ -1,0 +1,41 @@
+/* ==========================================================================
+   1. ESTILOS GLOBALES (Para todo el sitio)
+   ========================================================================== */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==========================================================================
+   2. HEADER Y LOGIN (Lo que está en header.php)
+   ========================================================================== */
+.logo-pokedex {
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.2));
+}
+.btn-ingresar {
+    background-color: #007bff;
+}
+
+/* ==========================================================================
+   3. INDEX / TABLA / BUSCADOR (Lo específico del index.php)
+   ========================================================================== */
+.tabla-pokemon th {
+    text-transform: uppercase;
+}
+
+/* ==========================================================================
+   4. DETALLE / CARD (Lo específico de detalle.php)
+   ========================================================================== */
+.card-detalle {
+    border-radius: 15px;
+}
+
+/* ==========================================================================
+   5. MEDIA QUERIES (Todo lo responsive va al final del todo)
+   ========================================================================== */
+@media (max-width: 768px) {
+    /* Acá adentro corregís el header, el buscador y lo que se rompa en mobile */
+    .form-login {
+        flex-direction: column;
+    }
+}

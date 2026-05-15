@@ -21,7 +21,6 @@ if(empty(trim($_GET["id"]))){
 }
 ?>
 
-
 <main class="container mt-5">
     <?php if ($fila): ?>
         <div class="card shadow-lg mx-auto" style="max-width: 800px; border-radius: 20px; overflow: hidden;">
