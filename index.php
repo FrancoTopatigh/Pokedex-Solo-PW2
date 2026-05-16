@@ -2,14 +2,14 @@
 include_once 'conexion.php';
 include_once 'html/header.php';
 
-$busqueda = isset($_GET['busqueda']) ? $_GET['busqueda'] : '';
+$busqueda = isset($_GET['buscar']) ? trim($_GET['buscar']) : '';
 $sql = "SELECT * FROM pokemon";
 
-if (!empty(trim($busqueda))) {
-    $sql .= " WHERE nombre LIKE ? OR tipo LIKE ? OR numero = ?";
-    $stmt = mysqli_prepare($conexion, $sql);
+if (strlen($busqueda) >= 3) {
+    $sql_buscar = $sql . " WHERE nombre LIKE ? OR tipo LIKE ? OR numero = ?";
+    $stmt = mysqli_prepare($conexion, $sql_buscar);
     $termino = "%$busqueda%";
-    mysqli_stmt_bind_param($stmt, "sss", $termino, $termino, $busqueda);
+    mysqli_stmt_bind_param($stmt, "ssi", $termino, $termino, $busqueda);
     mysqli_stmt_execute($stmt);
     $resultado = mysqli_stmt_get_result($stmt);
 } else {
